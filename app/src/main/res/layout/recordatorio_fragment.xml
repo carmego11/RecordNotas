@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="carloscompany.recordnotas.Recordatorio_Fragment">
+
+    <TextView
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:padding="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recordatorio"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edTxtTitleNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:gravity="center"
+        android:inputType="textCapWords"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="@string/fecha"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="datetime" />
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edTxtDescrNota"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="@string/descripcion"
+        android:gravity="center"
+        android:inputType="text"/>
+
+
+
+</LinearLayout>

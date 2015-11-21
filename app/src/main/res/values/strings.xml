@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RecordNotas</string>
+
+    <string name="no_item">Sin Items</string>
+    <string name="add">Agregar</string>
+    <string name="delete">Eliminar</string>
+    <string name="recordatorio">Recordatorio</string>
+    <string name="nota">Nota</string>
+    <string name="save">Guardar</string>
+    <string name="no_select">Seleccione un item para visualizar</string>
+    <string name="title">Título</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="fecha">Fecha</string>
+
+
+
+
+
+
+</resources>
